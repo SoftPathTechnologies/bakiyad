@@ -36,11 +36,22 @@ module.exports = {
                 210: "210px",
                 350: "394px",
                 620: "620px"
-            }
-
-
-
+            },
+            screens: {
+                sm: "640px",
+                md: "768px",
+                lg: "1024px",
+                xl: "1280px",
+                "2x1": "1536px",
+            },
+            colors: {
+                headingColor: "#2e2e2e",
+                textColor: "#515151",
+                cartNumBg: "#e80013",
+                primary: "#f5f3f3",
+            },
         },
-    },
-    plugins: [],
-}
+
+        plugins: [],
+    }
+};
